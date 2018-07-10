@@ -33,7 +33,7 @@ axios.interceptors.response.use((response) => {
 ```
 
 ### 为什么要这样做？
-需求源于后端 phper 坚持对于数据库的列名坚持不做任何转化  
+需求源于后端 phper 对于查询数据库的列名坚持不做任何转化  
 导致前端请求 json 数据 key 名均为下划线风格  
 有强迫症的 jser 当然不会让驼峰和下划线两种风格共存于自己的代码，哪怕是 api   
 
